@@ -1,0 +1,15 @@
+name: "LUSAHA"
+description: "Local URL Shortener Addon for Home Assistant"
+version: "0.1.0"
+slug: "lusaha"
+url: https://github.com/NeilSCGH/LUSAHA
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  8000/tcp: 8000
